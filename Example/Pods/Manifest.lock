@@ -1,0 +1,16 @@
+PODS:
+  - CNHighlightr (0.1.1)
+
+DEPENDENCIES:
+  - CNHighlightr (from `../`)
+
+EXTERNAL SOURCES:
+  CNHighlightr:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CNHighlightr: 9ff8264234f4fdf7664f667a4f2272ee3684587b
+
+PODFILE CHECKSUM: 54e3c7bd21d4d76efabeca24d897c24e14567a1d
+
+COCOAPODS: 1.10.0

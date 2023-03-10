@@ -1,0 +1,6 @@
+framework module CNHighlightr {
+  umbrella header "CNHighlightr-umbrella.h"
+
+  export *
+  module * { export * }
+}

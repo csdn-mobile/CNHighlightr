@@ -1,0 +1,26 @@
+{
+  "name": "CNHighlightr",
+  "version": "0.1.1",
+  "summary": "A short description of CNHighlightr.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://gitlab.csdn.net/mobile/iOS_modules/CNHighlightr",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mengruirui": "mengrr@csdn.net"
+  },
+  "source": {
+    "git": "https://gitlab.csdn.net/mobile/iOS_modules/CNHighlightr.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CNHighlightr/Classes/**/*",
+  "resources": [
+    "CNHighlightr/sources/Highlighter/*",
+    "CNHighlightr/sources/styles/*"
+  ]
+}

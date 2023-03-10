@@ -1,0 +1,1160 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A0318D57F8FC4D9350F47C0D2FDAE2 /* CNCodeNumberLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D41F2F03C132630B4B3F41B44798A51F /* CNCodeNumberLayoutManager.m */; };
+		02997F890E95FE188610395C7A74EAA0 /* Theme.h in Headers */ = {isa = PBXBuildFile; fileRef = 58AA41CA1FEE642C660FAAE6904CD015 /* Theme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04A6802BB3A83438FFD4DC0C73F18707 /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAB40737A796F5CA3BE14AED73A83D2 /* Theme.m */; };
+		09BD7B94DFBECC0FC171A29B8CF191CD /* vs2015.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 38147D52014AF515EC1A57D54A4EBD69 /* vs2015.min.css */; };
+		0A8F772C05541E3A65BE76488F80A363 /* qtcreator_dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 12539862AC7D1FBD94AA46896C059F85 /* qtcreator_dark.min.css */; };
+		0BA152DE2554D82671DCD3884B690032 /* Highlightr.m in Sources */ = {isa = PBXBuildFile; fileRef = 487DF3C88DF3433C10F0545CF8293263 /* Highlightr.m */; };
+		0E15749411C4BEEF9573A7C7A9F146DD /* CNCodeTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = D6ED9D7F887A90EA2A30AF600372DE13 /* CNCodeTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F0E357E37E1C8373567BDBA95A6C791 /* pojoaque.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A1E50B248213A76BBC6F56672B5B4534 /* pojoaque.min.css */; };
+		10D9DABE0D24BEC18FA556B5FF40AB3F /* zenburn.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 70DFFB3AA703D13F910B91DDF66E0181 /* zenburn.min.css */; };
+		1105BAD9ED5778B4A06CD67815625B11 /* HTMLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A0058DC1A632489F3FE3B01C856389 /* HTMLUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13B353E69167524C3E860151BD810927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		13E0C13298B9B371FC34C4BA4F5AEC80 /* hopscotch.min.css in Resources */ = {isa = PBXBuildFile; fileRef = CCE0BE7014D1A478BE4720F4B91F321B /* hopscotch.min.css */; };
+		14B67D3DFE18CBA3DF1E35B55045483A /* hybrid.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 98C9A5F0C3C7CA42BDDB3D07B877BD54 /* hybrid.min.css */; };
+		18BDEA8FFAFAAD51C3147F348F1BFEA3 /* Pods-CNHighlightr_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F531D0D964F345B8E4692A8EB12331 /* Pods-CNHighlightr_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A3569EF706AB9BF2786FAED71806A7A /* qtcreator_light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 15692E330B80CBEBBDE81E95C1D85BD9 /* qtcreator_light.min.css */; };
+		234EB3950C32113AA1456D1AD66FF6F5 /* gruvbox-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = B329CF1853467A384DDF2A3315837ECC /* gruvbox-light.min.css */; };
+		2BF8BA80ECED86E0B6A48E1F39D036D2 /* atelier-savanna-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = BE73B9474F4FF6344230619DD265613B /* atelier-savanna-light.min.css */; };
+		2D777BC230CF4576B36480FF016FA38B /* atelier-seaside-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 5223F5BF0B37572E59FD60CA70EB9D78 /* atelier-seaside-dark.min.css */; };
+		314E6DEBECC12E857E66D4ADB027530B /* far.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 26139175FAD2997C8F66401BD5126FD5 /* far.min.css */; };
+		32C9585679569B940FAC9506F5F66E6D /* atelier-heath-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 0033C817EDB0C188D3C7C67F29946381 /* atelier-heath-light.min.css */; };
+		3457C3E7C376F5506C8AE6B91388C5D8 /* Highlightr.h in Headers */ = {isa = PBXBuildFile; fileRef = D869F028925FD637AF2F4C25D474FF36 /* Highlightr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34B7C94EC31E0351A6AE2C92EBE938E7 /* Pods-CNHighlightr_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E682E73D1AF4F07F6242B07350804154 /* Pods-CNHighlightr_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39CE99278246679413FB96560D7E4647 /* docco.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 978D4B8AD2D03F7DCFF8D0D881D75336 /* docco.min.css */; };
+		3C16773E2F49E25A9CBC3E880D3155F7 /* atelier-lakeside-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A4D4D7F930DF7769227E9CD5071BD4D9 /* atelier-lakeside-dark.min.css */; };
+		3DFDE31E111170694124F80ACBAD18FE /* atelier-forest-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EECE869752327BDF0F74A07919F63D62 /* atelier-forest-light.min.css */; };
+		4704D6DB8D2E884A539ECFB4C9FE6D51 /* purebasic.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 3ED3C977E5C6F9B5C3D8F5C4861FC112 /* purebasic.min.css */; };
+		47BD36FB0A2A9B06D6666633934D89E0 /* kimbie.dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EB0546858BE3FBD87946798E47C7FADB /* kimbie.dark.min.css */; };
+		4D3044035058FB04A594485A79453574 /* atelier-cave-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 47F39341892217AAFB7B9A0CF1F5C14E /* atelier-cave-dark.min.css */; };
+		4E458DD3A7A624E47345DEBD424A345D /* Pods-CNHighlightr_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A589738530398B5DE8B2D67C0AF65BC4 /* Pods-CNHighlightr_Example-dummy.m */; };
+		4FFDE2A64F276C4E62495F2004312E7C /* ir-black.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 39C951CFE4225F347B31ED7D0077991A /* ir-black.min.css */; };
+		5098D2089C019F2A45724CA3740C4012 /* dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 53181918B5BFC1E9AE607B9C399B6E7F /* dark.min.css */; };
+		542CA3C518A5F66236F8840FB7C68C45 /* paraiso-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = D6B2A438239A47F5771248A1CBCFBFFB /* paraiso-light.min.css */; };
+		57BBE6A3E6C38B6C15546AA0A94DEAD9 /* Pods-CNHighlightr_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1B1CC8C79F97E545B85205B32D143 /* Pods-CNHighlightr_Tests-dummy.m */; };
+		5B184D23BE221B99C9CD00703C949563 /* dracula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 597CE1179EE4EE1CD35E725EFC21D15B /* dracula.min.css */; };
+		5DD83B2E2C56FEAB64D3CC0804E08AAA /* railscasts.min.css in Resources */ = {isa = PBXBuildFile; fileRef = D879CC016211515242808B4CDE665A98 /* railscasts.min.css */; };
+		5FBAF8E6A5B1B01F24484B4857821457 /* monokai-sublime.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 12A9B2063BE74DF654C0B313188A233C /* monokai-sublime.min.css */; };
+		629A7A2DBDF97663C76EB2A4D1490CE6 /* default.min.css in Resources */ = {isa = PBXBuildFile; fileRef = DFA93A65C51F4410F17D57DAA1A66A18 /* default.min.css */; };
+		62D031BFDD48E61A5013149FDF3E75B9 /* xt256.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 0F69998DC990A26222D98956CAF8F53D /* xt256.min.css */; };
+		6303EF74965B0EE5C8054DD61400EAF0 /* darcula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = E1B4DD967119041243ADAD5EA2A1F517 /* darcula.min.css */; };
+		68FC7EF9275555D78A9C726ED26C5729 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6BFD78669F6A9B491D58917085396817 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F41C1E7B0CB9B48049E7BF74CCB49132 /* LICENSE */; };
+		6DAB6378CCDF06088057C456A416F750 /* atelier-dune-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 614D953F84A875ED73CC5F875C3998F9 /* atelier-dune-dark.min.css */; };
+		6DF76703FF2F7D5B8C5B39398BE71992 /* ascetic.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 5CC535D761F2C9167FE35C0DF5B1C744 /* ascetic.min.css */; };
+		71CF51ADF49B39BC723B67D34C355792 /* highlight.min.js in Resources */ = {isa = PBXBuildFile; fileRef = CE00E93A9259604D5EB866CDFAC2DD40 /* highlight.min.js */; };
+		726965191ED0A3DC962B2A9005A2F05E /* sunburst.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 84567FF8420A431D016BA4F89F6A7D38 /* sunburst.min.css */; };
+		72D5D10C152A741E42FF581A41DDD7AC /* darkula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 72AAEA4EC32CFCD773C366C32EE9CC1C /* darkula.min.css */; };
+		7493060DCD413604274187B5C9C8D8C9 /* mono-blue.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 7433B7B2D00C86073311A772A4CC2710 /* mono-blue.min.css */; };
+		842CE44D4C04203912689A4807CE9A64 /* atelier-sulphurpool-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 8C0D32FB3CCAB01CA648853BF95800E8 /* atelier-sulphurpool-dark.min.css */; };
+		842DF80FFABF66F008FDBA5347FC5FB5 /* idea.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 3729344A36DAF193D268BF026CF747A9 /* idea.min.css */; };
+		867E52CCF9024F3E2CE83F88A10EE3A7 /* arduino-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 3BC739FC556CC729B828B62E6FA8ED8E /* arduino-light.min.css */; };
+		87412BB812A11CD3F43B8E5B3A958EB1 /* solarized-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 0B9E5E26984DC6D5212B671D7E9C2DCF /* solarized-light.min.css */; };
+		883933AED34022A61A529BD6B5795B01 /* brown-paper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 4EE619995A1EF3E0C2505817C0540896 /* brown-paper.min.css */; };
+		9804911F4147BBAB994353CA67568226 /* atelier-savanna-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C4D3E8CCEF24FBC085F1A64DF2F30AE6 /* atelier-savanna-dark.min.css */; };
+		9A53BFECB27430D5A2667E7EA0238E5B /* atelier-heath-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = B5C2725B28D7F81DA4212DA2C6355000 /* atelier-heath-dark.min.css */; };
+		9ECC0C9CBA611A36B69BAD7E234D9657 /* gruvbox-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = AA33D0A418C007538C8EA52C12D988A6 /* gruvbox-dark.min.css */; };
+		9F549540ECE6005AE60EC681D5670CC1 /* CNCodeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59622FBC96FEC316E741D630E9DC297B /* CNCodeTextView.m */; };
+		9FFFFC9C3F0536FF4BA3065071A501EA /* tomorrow.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 6543E46F81E56207C25BD88A9DE52648 /* tomorrow.min.css */; };
+		A2130B56752EFD6541639F76D9DC3F7E /* paraiso-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = B67B7B36736010A1D06A9C55C2C6730C /* paraiso-dark.min.css */; };
+		A22EA6C59EE45C276AFFCC19C8F9372C /* CodeAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F15AC920678A6B700B8B1675A3439E /* CodeAttributedString.m */; };
+		A2D218476185D3D55F3DADB170553BF1 /* arta.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 54A32E98B6263A1290AB8DA08EED2CCF /* arta.min.css */; };
+		A33F81FC9A5D66E78934321CDA933ED3 /* solarized-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EDDED6F406154D0B0D444831C516FCDB /* solarized-dark.min.css */; };
+		A424171E9124DED7F79F0B1473531095 /* HTMLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FD51710A203C20C09B7401014E3AE13B /* HTMLUtils.m */; };
+		A6C429565225D6C3D24F42F82B5D830F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A7BDF4A4199911025BDFDA458E921DC6 /* grayscale.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 4E91D002FCB6FDFF2EEAF16600ED2C1B /* grayscale.min.css */; };
+		A8D3D42D003813BF74E84559537B777F /* github.min.css in Resources */ = {isa = PBXBuildFile; fileRef = BAA3AE154192AFC2D83C74D93B6E0598 /* github.min.css */; };
+		A9A2DB955EBBF694E51CC326063B8210 /* magula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 22C4B08B5EC47CA7C9B36D3CDE9DA9A5 /* magula.min.css */; };
+		A9A40B53EE8BE7138DC6BFC7F75A8425 /* atom-one-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A3D3521C89C38E3827DAAEEC1C3F5C4F /* atom-one-dark.min.css */; };
+		A9D3723534D1F0EDF3AD040E8C8DABAD /* CNHighlightr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED60D01BDF50C628293CAFD2A19D9BE /* CNHighlightr-dummy.m */; };
+		ABF12B4046725B6130B823E0354190EC /* brown-papersq.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3998DD249392C406269CE63E91684E /* brown-papersq.png */; };
+		AC9B3A736274FE65B752904257BB3493 /* routeros.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 222503681141E5B14190308E8CB2D00B /* routeros.min.css */; };
+		B025FEC6CB0F374A7F06918415260620 /* atom-one-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A2BB6A0F1B29AD45491D8D4A362575EF /* atom-one-light.min.css */; };
+		B22AEF4AF5ABF70ED7CE6A13E968E743 /* CNHighlightr-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2994073DD8B6C99C6AF2059C76C9E19 /* CNHighlightr-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3876DAABA31B0A4D08DF148FFC621E3 /* googlecode.min.css in Resources */ = {isa = PBXBuildFile; fileRef = E3797F4134C18B9DA1D12AB3F01D7964 /* googlecode.min.css */; };
+		B494E18569A32828CA2D1521364D9866 /* tomorrow-night.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 458CC888919BADA90EB86659490487CE /* tomorrow-night.min.css */; };
+		B525489BED608ECC8CD5001CA3334105 /* atelier-estuary-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 404BCFC9A676F936CCFD7EAE63759D29 /* atelier-estuary-dark.min.css */; };
+		B6CEEF3EC4AFCB28CE7E5D1DD4695588 /* kimbie.light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = BCF9185E16209D41B725968FBE4E5103 /* kimbie.light.min.css */; };
+		B8A11B13B764A309F4BECF32B6DCCC3A /* CNCodeNumberLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6074BD6E578390C3580A589C174996 /* CNCodeNumberLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9A66C7CADE279D30ED4A9213949F79D /* tomorrow-night-bright.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 38EA05B537DE139CFE4C624BEFF310CA /* tomorrow-night-bright.min.css */; };
+		BA6A250C5AAE6C6C19DBE51B1E699E73 /* atelier-sulphurpool-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 3245A271FF118288BD08D0D16FA8D654 /* atelier-sulphurpool-light.min.css */; };
+		BA952E32433E968871FA4AC68B79CB7E /* obsidian.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 5436186EDD2CBBA955448FFD0D72519C /* obsidian.min.css */; };
+		BDBA7EDE6DDD343526EA95EE35E543C9 /* monokai.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 8DCF3C2E46FD0870B30C0E3B86975E30 /* monokai.min.css */; };
+		BF4159347CCCC833A448DAEB8C89F7C3 /* CodeAttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 0560ED9C7AA622FAD3EADCEDA8B214B3 /* CodeAttributedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF64A2B8BFB2A3E98E85062C62983A56 /* atelier-plateau-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 165FA31630080CEBC8303534F4BF469A /* atelier-plateau-light.min.css */; };
+		C357606B95F56DB06DDFE89403296236 /* atelier-forest-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2A77FE9D9EF541735F193D7A4E463377 /* atelier-forest-dark.min.css */; };
+		C3F4619FCCAC0E0B265E2AC5D1D1AB4E /* atelier-estuary-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = B78BB956A85FEDB4B6ED059BFBD61B0F /* atelier-estuary-light.min.css */; };
+		C77DE1E740CD31B687159C8E5CD0C1FD /* ocean.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 8C22F6C75EC448CB6A3D21A185888176 /* ocean.min.css */; };
+		D0D2C4C095B998517A600E02EE318B70 /* github-gist.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EF743FB039F92772AD858D4710B96E85 /* github-gist.min.css */; };
+		D211E981FFA8CD833B2E6AD034A6DDAD /* androidstudio.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 3CC1B57FD5B66816100823D25C594687 /* androidstudio.min.css */; };
+		D27F271A630063C20356261F530427EE /* tomorrow-night-blue.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 8B910893188628DBD698EAD05EF8E248 /* tomorrow-night-blue.min.css */; };
+		DB358FD1389FA738FF292506EBE22D9A /* school-book.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 075C8B74CF31DC142B32E8F18602BCD7 /* school-book.min.css */; };
+		DC4C2E1AFB531E45766FC0A554AD0E39 /* atelier-seaside-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 23B6279D3872EC8347EED8B61435C973 /* atelier-seaside-light.min.css */; };
+		DE75945BE752C2C3138A96BB535F48C5 /* atelier-cave-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C681FCEE106C350D2A7F98D1D26FE12C /* atelier-cave-light.min.css */; };
+		DE7B098F7EFFA9DE0C981B2B4F676BA3 /* color-brewer.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B5220BF336C689FEB6EFB8ADD846678 /* color-brewer.min.css */; };
+		E26C3BB8D416E342041EE5F5B80B06B0 /* xcode.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 93D70615204C6AF96E5EB988D1781449 /* xcode.min.css */; };
+		E2CA6D860AA7D922A85E49A343E5F11E /* atelier-plateau-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C3409B3B93049F98C7FDE4F9A1B00399 /* atelier-plateau-dark.min.css */; };
+		E374D940F232B7AF57F9477D4678E0ED /* agate.min.css in Resources */ = {isa = PBXBuildFile; fileRef = BDC23C78677A8D13489BBFB36CF18152 /* agate.min.css */; };
+		E39DCE6362364C71510B0F7DF16DB55E /* codepen-embed.min.css in Resources */ = {isa = PBXBuildFile; fileRef = F1EA1CF3C33D948148559AB0EA472D15 /* codepen-embed.min.css */; };
+		E3AD2EC01A5DE354B019011B26BBF797 /* atelier-lakeside-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 0B98307B6A24A3B31A872724C5FD0BB6 /* atelier-lakeside-light.min.css */; };
+		E6CDA8ED233A92C5DC3A0E9A85D76C56 /* atelier-dune-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 0416EDEAE004DFACB8CFF93C708B3135 /* atelier-dune-light.min.css */; };
+		E79D286D7216D98D14F178D784734E5A /* tomorrow-night-eighties.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 58E7E776ABE809181428A2D4BCC162D1 /* tomorrow-night-eighties.min.css */; };
+		F340B5F28B1CCAEE5EC7192CE1F7127A /* vs.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 5A0D9812282119696DF5CAEFF9FB4D01 /* vs.min.css */; };
+		FC2B5F666AE7C89875B8B7AD371D2A26 /* foundation.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C856A44E5A9FE0A025A87D25304BFCB6 /* foundation.min.css */; };
+		FF6EF299E9C24363CAC4BA48A6D87BA5 /* rainbow.min.css in Resources */ = {isa = PBXBuildFile; fileRef = AF02DC6D3F5E1534BD6EB899DE99C564 /* rainbow.min.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2072932A370D693B42A1406DD2FB44FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6BCD74F5F962035E6732ED9CE4CFBC6;
+			remoteInfo = CNHighlightr;
+		};
+		54CD49250041E75DB73F786E6FC3F0CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B313AD1223B60B75F3ECCEFEE2EB84DD;
+			remoteInfo = "Pods-CNHighlightr_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0033C817EDB0C188D3C7C67F29946381 /* atelier-heath-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-heath-light.min.css"; sourceTree = "<group>"; };
+		014361AEE844210DFDC94D004ABB288B /* Pods-CNHighlightr_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNHighlightr_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0416EDEAE004DFACB8CFF93C708B3135 /* atelier-dune-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-dune-light.min.css"; sourceTree = "<group>"; };
+		0560ED9C7AA622FAD3EADCEDA8B214B3 /* CodeAttributedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CodeAttributedString.h; path = CNHighlightr/Classes/CodeAttributedString.h; sourceTree = "<group>"; };
+		075C8B74CF31DC142B32E8F18602BCD7 /* school-book.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "school-book.min.css"; sourceTree = "<group>"; };
+		0B98307B6A24A3B31A872724C5FD0BB6 /* atelier-lakeside-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-lakeside-light.min.css"; sourceTree = "<group>"; };
+		0B9E5E26984DC6D5212B671D7E9C2DCF /* solarized-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "solarized-light.min.css"; sourceTree = "<group>"; };
+		0F18DAB946F91D788DC4E18380500DBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0F69998DC990A26222D98956CAF8F53D /* xt256.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = xt256.min.css; sourceTree = "<group>"; };
+		12539862AC7D1FBD94AA46896C059F85 /* qtcreator_dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = qtcreator_dark.min.css; sourceTree = "<group>"; };
+		12A9B2063BE74DF654C0B313188A233C /* monokai-sublime.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "monokai-sublime.min.css"; sourceTree = "<group>"; };
+		15692E330B80CBEBBDE81E95C1D85BD9 /* qtcreator_light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = qtcreator_light.min.css; sourceTree = "<group>"; };
+		165FA31630080CEBC8303534F4BF469A /* atelier-plateau-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-plateau-light.min.css"; sourceTree = "<group>"; };
+		1B5220BF336C689FEB6EFB8ADD846678 /* color-brewer.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "color-brewer.min.css"; sourceTree = "<group>"; };
+		1EC21BB65530CE2EDE02F01E7ABE1919 /* CNHighlightr.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CNHighlightr.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		222503681141E5B14190308E8CB2D00B /* routeros.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = routeros.min.css; sourceTree = "<group>"; };
+		22C4B08B5EC47CA7C9B36D3CDE9DA9A5 /* magula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = magula.min.css; sourceTree = "<group>"; };
+		2315A07259BA0B9EF2D74731DFA5C74B /* Pods-CNHighlightr_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNHighlightr_Example-Info.plist"; sourceTree = "<group>"; };
+		23B6279D3872EC8347EED8B61435C973 /* atelier-seaside-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-seaside-light.min.css"; sourceTree = "<group>"; };
+		2588E60184BE6AC2ED2426E6E19F278E /* Pods-CNHighlightr_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNHighlightr_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		26139175FAD2997C8F66401BD5126FD5 /* far.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = far.min.css; sourceTree = "<group>"; };
+		2A77FE9D9EF541735F193D7A4E463377 /* atelier-forest-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-forest-dark.min.css"; sourceTree = "<group>"; };
+		3245A271FF118288BD08D0D16FA8D654 /* atelier-sulphurpool-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-sulphurpool-light.min.css"; sourceTree = "<group>"; };
+		34C829D704ADB4EE35947E8A7D70D622 /* CNHighlightr-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNHighlightr-prefix.pch"; sourceTree = "<group>"; };
+		3729344A36DAF193D268BF026CF747A9 /* idea.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = idea.min.css; sourceTree = "<group>"; };
+		38147D52014AF515EC1A57D54A4EBD69 /* vs2015.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = vs2015.min.css; sourceTree = "<group>"; };
+		38EA05B537DE139CFE4C624BEFF310CA /* tomorrow-night-bright.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "tomorrow-night-bright.min.css"; sourceTree = "<group>"; };
+		39C951CFE4225F347B31ED7D0077991A /* ir-black.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "ir-black.min.css"; sourceTree = "<group>"; };
+		3BC739FC556CC729B828B62E6FA8ED8E /* arduino-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "arduino-light.min.css"; sourceTree = "<group>"; };
+		3CC1B57FD5B66816100823D25C594687 /* androidstudio.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = androidstudio.min.css; sourceTree = "<group>"; };
+		3ED3C977E5C6F9B5C3D8F5C4861FC112 /* purebasic.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = purebasic.min.css; sourceTree = "<group>"; };
+		3FB674C7F152D5104DBD108190CA86F3 /* Pods-CNHighlightr_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNHighlightr_Tests-Info.plist"; sourceTree = "<group>"; };
+		404BCFC9A676F936CCFD7EAE63759D29 /* atelier-estuary-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-estuary-dark.min.css"; sourceTree = "<group>"; };
+		458CC888919BADA90EB86659490487CE /* tomorrow-night.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "tomorrow-night.min.css"; sourceTree = "<group>"; };
+		46F15AC920678A6B700B8B1675A3439E /* CodeAttributedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CodeAttributedString.m; path = CNHighlightr/Classes/CodeAttributedString.m; sourceTree = "<group>"; };
+		47F39341892217AAFB7B9A0CF1F5C14E /* atelier-cave-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-cave-dark.min.css"; sourceTree = "<group>"; };
+		487DF3C88DF3433C10F0545CF8293263 /* Highlightr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Highlightr.m; path = CNHighlightr/Classes/Highlightr.m; sourceTree = "<group>"; };
+		49D993AEC5D32CA254C17BDB4CC8765B /* Pods_CNHighlightr_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CNHighlightr_Tests.framework; path = "Pods-CNHighlightr_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E91D002FCB6FDFF2EEAF16600ED2C1B /* grayscale.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = grayscale.min.css; sourceTree = "<group>"; };
+		4EE619995A1EF3E0C2505817C0540896 /* brown-paper.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "brown-paper.min.css"; sourceTree = "<group>"; };
+		5223F5BF0B37572E59FD60CA70EB9D78 /* atelier-seaside-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-seaside-dark.min.css"; sourceTree = "<group>"; };
+		53181918B5BFC1E9AE607B9C399B6E7F /* dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = dark.min.css; sourceTree = "<group>"; };
+		5436186EDD2CBBA955448FFD0D72519C /* obsidian.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = obsidian.min.css; sourceTree = "<group>"; };
+		54A32E98B6263A1290AB8DA08EED2CCF /* arta.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = arta.min.css; sourceTree = "<group>"; };
+		58AA41CA1FEE642C660FAAE6904CD015 /* Theme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Theme.h; path = CNHighlightr/Classes/Theme.h; sourceTree = "<group>"; };
+		58E7E776ABE809181428A2D4BCC162D1 /* tomorrow-night-eighties.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "tomorrow-night-eighties.min.css"; sourceTree = "<group>"; };
+		59622FBC96FEC316E741D630E9DC297B /* CNCodeTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CNCodeTextView.m; path = CNHighlightr/Classes/CNCodeTextView.m; sourceTree = "<group>"; };
+		597CE1179EE4EE1CD35E725EFC21D15B /* dracula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = dracula.min.css; sourceTree = "<group>"; };
+		5A0D9812282119696DF5CAEFF9FB4D01 /* vs.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = vs.min.css; sourceTree = "<group>"; };
+		5CC535D761F2C9167FE35C0DF5B1C744 /* ascetic.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = ascetic.min.css; sourceTree = "<group>"; };
+		614D953F84A875ED73CC5F875C3998F9 /* atelier-dune-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-dune-dark.min.css"; sourceTree = "<group>"; };
+		6543E46F81E56207C25BD88A9DE52648 /* tomorrow.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = tomorrow.min.css; sourceTree = "<group>"; };
+		6A5065BBC14A84E4BB7FF21EE5A15947 /* Pods_CNHighlightr_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CNHighlightr_Example.framework; path = "Pods-CNHighlightr_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDC976D8A331BC5844BE15BEBF30486 /* Pods-CNHighlightr_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNHighlightr_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F1DF1BC3E1C25C9619C394AD486A815 /* Pods-CNHighlightr_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CNHighlightr_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6F8815E03C44678982C9DB73ACF8931E /* Pods-CNHighlightr_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNHighlightr_Example.release.xcconfig"; sourceTree = "<group>"; };
+		70DFFB3AA703D13F910B91DDF66E0181 /* zenburn.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = zenburn.min.css; sourceTree = "<group>"; };
+		72AAEA4EC32CFCD773C366C32EE9CC1C /* darkula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = darkula.min.css; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7433B7B2D00C86073311A772A4CC2710 /* mono-blue.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "mono-blue.min.css"; sourceTree = "<group>"; };
+		76313FE94D6ECB105AC1F421FB92A249 /* CNHighlightr-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CNHighlightr-Info.plist"; sourceTree = "<group>"; };
+		7BC07628ACB6152490E7BA9EA050F656 /* Pods-CNHighlightr_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CNHighlightr_Tests.modulemap"; sourceTree = "<group>"; };
+		8327CFD8783C073AFF8B7110D0EE97E7 /* CNHighlightr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CNHighlightr.framework; path = CNHighlightr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84567FF8420A431D016BA4F89F6A7D38 /* sunburst.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = sunburst.min.css; sourceTree = "<group>"; };
+		8B910893188628DBD698EAD05EF8E248 /* tomorrow-night-blue.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "tomorrow-night-blue.min.css"; sourceTree = "<group>"; };
+		8C0D32FB3CCAB01CA648853BF95800E8 /* atelier-sulphurpool-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-sulphurpool-dark.min.css"; sourceTree = "<group>"; };
+		8C22F6C75EC448CB6A3D21A185888176 /* ocean.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = ocean.min.css; sourceTree = "<group>"; };
+		8D476511130CE7EFDCD771EA6CB65C7A /* Pods-CNHighlightr_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNHighlightr_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8DCF3C2E46FD0870B30C0E3B86975E30 /* monokai.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = monokai.min.css; sourceTree = "<group>"; };
+		8ED60D01BDF50C628293CAFD2A19D9BE /* CNHighlightr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CNHighlightr-dummy.m"; sourceTree = "<group>"; };
+		90F531D0D964F345B8E4692A8EB12331 /* Pods-CNHighlightr_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CNHighlightr_Example-umbrella.h"; sourceTree = "<group>"; };
+		93D70615204C6AF96E5EB988D1781449 /* xcode.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = xcode.min.css; sourceTree = "<group>"; };
+		978D4B8AD2D03F7DCFF8D0D881D75336 /* docco.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = docco.min.css; sourceTree = "<group>"; };
+		98C9A5F0C3C7CA42BDDB3D07B877BD54 /* hybrid.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = hybrid.min.css; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FB1B1CC8C79F97E545B85205B32D143 /* Pods-CNHighlightr_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CNHighlightr_Tests-dummy.m"; sourceTree = "<group>"; };
+		A1E50B248213A76BBC6F56672B5B4534 /* pojoaque.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = pojoaque.min.css; sourceTree = "<group>"; };
+		A2BB6A0F1B29AD45491D8D4A362575EF /* atom-one-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atom-one-light.min.css"; sourceTree = "<group>"; };
+		A3D3521C89C38E3827DAAEEC1C3F5C4F /* atom-one-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atom-one-dark.min.css"; sourceTree = "<group>"; };
+		A4D4D7F930DF7769227E9CD5071BD4D9 /* atelier-lakeside-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-lakeside-dark.min.css"; sourceTree = "<group>"; };
+		A589738530398B5DE8B2D67C0AF65BC4 /* Pods-CNHighlightr_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CNHighlightr_Example-dummy.m"; sourceTree = "<group>"; };
+		A6F43CA820E1BCC7C91F57D7C2FB26F6 /* CNHighlightr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CNHighlightr.debug.xcconfig; sourceTree = "<group>"; };
+		AA33D0A418C007538C8EA52C12D988A6 /* gruvbox-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "gruvbox-dark.min.css"; sourceTree = "<group>"; };
+		AF02DC6D3F5E1534BD6EB899DE99C564 /* rainbow.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = rainbow.min.css; sourceTree = "<group>"; };
+		B2388C6F6155FCB95A3AA9CF043CB652 /* Pods-CNHighlightr_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CNHighlightr_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B329CF1853467A384DDF2A3315837ECC /* gruvbox-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "gruvbox-light.min.css"; sourceTree = "<group>"; };
+		B3307DBF6B3AA92D80D778A205C04E20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B5C2725B28D7F81DA4212DA2C6355000 /* atelier-heath-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-heath-dark.min.css"; sourceTree = "<group>"; };
+		B67B7B36736010A1D06A9C55C2C6730C /* paraiso-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "paraiso-dark.min.css"; sourceTree = "<group>"; };
+		B78BB956A85FEDB4B6ED059BFBD61B0F /* atelier-estuary-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-estuary-light.min.css"; sourceTree = "<group>"; };
+		BAA3AE154192AFC2D83C74D93B6E0598 /* github.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = github.min.css; sourceTree = "<group>"; };
+		BCF9185E16209D41B725968FBE4E5103 /* kimbie.light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = kimbie.light.min.css; sourceTree = "<group>"; };
+		BDA292F50B3251F7698F3ED093C71FB1 /* Pods-CNHighlightr_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CNHighlightr_Example.modulemap"; sourceTree = "<group>"; };
+		BDC23C78677A8D13489BBFB36CF18152 /* agate.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = agate.min.css; sourceTree = "<group>"; };
+		BE6074BD6E578390C3580A589C174996 /* CNCodeNumberLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNCodeNumberLayoutManager.h; path = CNHighlightr/Classes/CNCodeNumberLayoutManager.h; sourceTree = "<group>"; };
+		BE73B9474F4FF6344230619DD265613B /* atelier-savanna-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-savanna-light.min.css"; sourceTree = "<group>"; };
+		C3409B3B93049F98C7FDE4F9A1B00399 /* atelier-plateau-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-plateau-dark.min.css"; sourceTree = "<group>"; };
+		C4D3E8CCEF24FBC085F1A64DF2F30AE6 /* atelier-savanna-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-savanna-dark.min.css"; sourceTree = "<group>"; };
+		C681FCEE106C350D2A7F98D1D26FE12C /* atelier-cave-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-cave-light.min.css"; sourceTree = "<group>"; };
+		C856A44E5A9FE0A025A87D25304BFCB6 /* foundation.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = foundation.min.css; sourceTree = "<group>"; };
+		CAAB40737A796F5CA3BE14AED73A83D2 /* Theme.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Theme.m; path = CNHighlightr/Classes/Theme.m; sourceTree = "<group>"; };
+		CCE0BE7014D1A478BE4720F4B91F321B /* hopscotch.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = hopscotch.min.css; sourceTree = "<group>"; };
+		CE00E93A9259604D5EB866CDFAC2DD40 /* highlight.min.js */ = {isa = PBXFileReference; includeInIndex = 1; path = highlight.min.js; sourceTree = "<group>"; };
+		D149D35333282F99EB0155739C6714D0 /* Pods-CNHighlightr_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNHighlightr_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D41F2F03C132630B4B3F41B44798A51F /* CNCodeNumberLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CNCodeNumberLayoutManager.m; path = CNHighlightr/Classes/CNCodeNumberLayoutManager.m; sourceTree = "<group>"; };
+		D4A0058DC1A632489F3FE3B01C856389 /* HTMLUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLUtils.h; path = CNHighlightr/Classes/HTMLUtils.h; sourceTree = "<group>"; };
+		D6B2A438239A47F5771248A1CBCFBFFB /* paraiso-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "paraiso-light.min.css"; sourceTree = "<group>"; };
+		D6ED9D7F887A90EA2A30AF600372DE13 /* CNCodeTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNCodeTextView.h; path = CNHighlightr/Classes/CNCodeTextView.h; sourceTree = "<group>"; };
+		D869F028925FD637AF2F4C25D474FF36 /* Highlightr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Highlightr.h; path = CNHighlightr/Classes/Highlightr.h; sourceTree = "<group>"; };
+		D879CC016211515242808B4CDE665A98 /* railscasts.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = railscasts.min.css; sourceTree = "<group>"; };
+		DD3998DD249392C406269CE63E91684E /* brown-papersq.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "brown-papersq.png"; sourceTree = "<group>"; };
+		DFA93A65C51F4410F17D57DAA1A66A18 /* default.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = default.min.css; sourceTree = "<group>"; };
+		E1B4DD967119041243ADAD5EA2A1F517 /* darcula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = darcula.min.css; sourceTree = "<group>"; };
+		E2994073DD8B6C99C6AF2059C76C9E19 /* CNHighlightr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNHighlightr-umbrella.h"; sourceTree = "<group>"; };
+		E3797F4134C18B9DA1D12AB3F01D7964 /* googlecode.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = googlecode.min.css; sourceTree = "<group>"; };
+		E682E73D1AF4F07F6242B07350804154 /* Pods-CNHighlightr_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CNHighlightr_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EB0546858BE3FBD87946798E47C7FADB /* kimbie.dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = kimbie.dark.min.css; sourceTree = "<group>"; };
+		EDDED6F406154D0B0D444831C516FCDB /* solarized-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "solarized-dark.min.css"; sourceTree = "<group>"; };
+		EECE869752327BDF0F74A07919F63D62 /* atelier-forest-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "atelier-forest-light.min.css"; sourceTree = "<group>"; };
+		EF743FB039F92772AD858D4710B96E85 /* github-gist.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "github-gist.min.css"; sourceTree = "<group>"; };
+		F1EA1CF3C33D948148559AB0EA472D15 /* codepen-embed.min.css */ = {isa = PBXFileReference; includeInIndex = 1; path = "codepen-embed.min.css"; sourceTree = "<group>"; };
+		F41C1E7B0CB9B48049E7BF74CCB49132 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F9988368C94D571ABCEC7A24B8239D05 /* CNHighlightr.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CNHighlightr.modulemap; sourceTree = "<group>"; };
+		FC30233CFCC316F1C448DF17DB09C914 /* Pods-CNHighlightr_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CNHighlightr_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC9212D35D7F39D08ACE2B895B6EBB42 /* CNHighlightr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CNHighlightr.release.xcconfig; sourceTree = "<group>"; };
+		FD51710A203C20C09B7401014E3AE13B /* HTMLUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLUtils.m; path = CNHighlightr/Classes/HTMLUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A658B1A0CCA01371183115BFC519343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C429565225D6C3D24F42F82B5D830F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2384EF756CDD8A4C7CEDF1F3ACD3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FC7EF9275555D78A9C726ED26C5729 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69185A49044A75CD76F4F126E877475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B353E69167524C3E860151BD810927 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06BD219790B1071090F2CAD01C25CC50 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1EC21BB65530CE2EDE02F01E7ABE1919 /* CNHighlightr.podspec */,
+				B3307DBF6B3AA92D80D778A205C04E20 /* LICENSE */,
+				0F18DAB946F91D788DC4E18380500DBE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1801ECAB56D732313C661FB4FB296F5C /* Pods-CNHighlightr_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BDA292F50B3251F7698F3ED093C71FB1 /* Pods-CNHighlightr_Example.modulemap */,
+				B2388C6F6155FCB95A3AA9CF043CB652 /* Pods-CNHighlightr_Example-acknowledgements.markdown */,
+				D149D35333282F99EB0155739C6714D0 /* Pods-CNHighlightr_Example-acknowledgements.plist */,
+				A589738530398B5DE8B2D67C0AF65BC4 /* Pods-CNHighlightr_Example-dummy.m */,
+				6F1DF1BC3E1C25C9619C394AD486A815 /* Pods-CNHighlightr_Example-frameworks.sh */,
+				2315A07259BA0B9EF2D74731DFA5C74B /* Pods-CNHighlightr_Example-Info.plist */,
+				90F531D0D964F345B8E4692A8EB12331 /* Pods-CNHighlightr_Example-umbrella.h */,
+				8D476511130CE7EFDCD771EA6CB65C7A /* Pods-CNHighlightr_Example.debug.xcconfig */,
+				6F8815E03C44678982C9DB73ACF8931E /* Pods-CNHighlightr_Example.release.xcconfig */,
+			);
+			name = "Pods-CNHighlightr_Example";
+			path = "Target Support Files/Pods-CNHighlightr_Example";
+			sourceTree = "<group>";
+		};
+		276CB14589AF580FB9A739E8E5F547AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1801ECAB56D732313C661FB4FB296F5C /* Pods-CNHighlightr_Example */,
+				86C2C6AA6E48CDBC53E493CAA04FE6DF /* Pods-CNHighlightr_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		31C2DD6D7E168A7BDF74E55205250060 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				BDC23C78677A8D13489BBFB36CF18152 /* agate.min.css */,
+				3CC1B57FD5B66816100823D25C594687 /* androidstudio.min.css */,
+				3BC739FC556CC729B828B62E6FA8ED8E /* arduino-light.min.css */,
+				54A32E98B6263A1290AB8DA08EED2CCF /* arta.min.css */,
+				5CC535D761F2C9167FE35C0DF5B1C744 /* ascetic.min.css */,
+				47F39341892217AAFB7B9A0CF1F5C14E /* atelier-cave-dark.min.css */,
+				C681FCEE106C350D2A7F98D1D26FE12C /* atelier-cave-light.min.css */,
+				614D953F84A875ED73CC5F875C3998F9 /* atelier-dune-dark.min.css */,
+				0416EDEAE004DFACB8CFF93C708B3135 /* atelier-dune-light.min.css */,
+				404BCFC9A676F936CCFD7EAE63759D29 /* atelier-estuary-dark.min.css */,
+				B78BB956A85FEDB4B6ED059BFBD61B0F /* atelier-estuary-light.min.css */,
+				2A77FE9D9EF541735F193D7A4E463377 /* atelier-forest-dark.min.css */,
+				EECE869752327BDF0F74A07919F63D62 /* atelier-forest-light.min.css */,
+				B5C2725B28D7F81DA4212DA2C6355000 /* atelier-heath-dark.min.css */,
+				0033C817EDB0C188D3C7C67F29946381 /* atelier-heath-light.min.css */,
+				A4D4D7F930DF7769227E9CD5071BD4D9 /* atelier-lakeside-dark.min.css */,
+				0B98307B6A24A3B31A872724C5FD0BB6 /* atelier-lakeside-light.min.css */,
+				C3409B3B93049F98C7FDE4F9A1B00399 /* atelier-plateau-dark.min.css */,
+				165FA31630080CEBC8303534F4BF469A /* atelier-plateau-light.min.css */,
+				C4D3E8CCEF24FBC085F1A64DF2F30AE6 /* atelier-savanna-dark.min.css */,
+				BE73B9474F4FF6344230619DD265613B /* atelier-savanna-light.min.css */,
+				5223F5BF0B37572E59FD60CA70EB9D78 /* atelier-seaside-dark.min.css */,
+				23B6279D3872EC8347EED8B61435C973 /* atelier-seaside-light.min.css */,
+				8C0D32FB3CCAB01CA648853BF95800E8 /* atelier-sulphurpool-dark.min.css */,
+				3245A271FF118288BD08D0D16FA8D654 /* atelier-sulphurpool-light.min.css */,
+				A3D3521C89C38E3827DAAEEC1C3F5C4F /* atom-one-dark.min.css */,
+				A2BB6A0F1B29AD45491D8D4A362575EF /* atom-one-light.min.css */,
+				4EE619995A1EF3E0C2505817C0540896 /* brown-paper.min.css */,
+				DD3998DD249392C406269CE63E91684E /* brown-papersq.png */,
+				F1EA1CF3C33D948148559AB0EA472D15 /* codepen-embed.min.css */,
+				1B5220BF336C689FEB6EFB8ADD846678 /* color-brewer.min.css */,
+				E1B4DD967119041243ADAD5EA2A1F517 /* darcula.min.css */,
+				53181918B5BFC1E9AE607B9C399B6E7F /* dark.min.css */,
+				72AAEA4EC32CFCD773C366C32EE9CC1C /* darkula.min.css */,
+				DFA93A65C51F4410F17D57DAA1A66A18 /* default.min.css */,
+				978D4B8AD2D03F7DCFF8D0D881D75336 /* docco.min.css */,
+				597CE1179EE4EE1CD35E725EFC21D15B /* dracula.min.css */,
+				26139175FAD2997C8F66401BD5126FD5 /* far.min.css */,
+				C856A44E5A9FE0A025A87D25304BFCB6 /* foundation.min.css */,
+				EF743FB039F92772AD858D4710B96E85 /* github-gist.min.css */,
+				BAA3AE154192AFC2D83C74D93B6E0598 /* github.min.css */,
+				E3797F4134C18B9DA1D12AB3F01D7964 /* googlecode.min.css */,
+				4E91D002FCB6FDFF2EEAF16600ED2C1B /* grayscale.min.css */,
+				AA33D0A418C007538C8EA52C12D988A6 /* gruvbox-dark.min.css */,
+				B329CF1853467A384DDF2A3315837ECC /* gruvbox-light.min.css */,
+				CCE0BE7014D1A478BE4720F4B91F321B /* hopscotch.min.css */,
+				98C9A5F0C3C7CA42BDDB3D07B877BD54 /* hybrid.min.css */,
+				3729344A36DAF193D268BF026CF747A9 /* idea.min.css */,
+				39C951CFE4225F347B31ED7D0077991A /* ir-black.min.css */,
+				EB0546858BE3FBD87946798E47C7FADB /* kimbie.dark.min.css */,
+				BCF9185E16209D41B725968FBE4E5103 /* kimbie.light.min.css */,
+				22C4B08B5EC47CA7C9B36D3CDE9DA9A5 /* magula.min.css */,
+				7433B7B2D00C86073311A772A4CC2710 /* mono-blue.min.css */,
+				12A9B2063BE74DF654C0B313188A233C /* monokai-sublime.min.css */,
+				8DCF3C2E46FD0870B30C0E3B86975E30 /* monokai.min.css */,
+				5436186EDD2CBBA955448FFD0D72519C /* obsidian.min.css */,
+				8C22F6C75EC448CB6A3D21A185888176 /* ocean.min.css */,
+				B67B7B36736010A1D06A9C55C2C6730C /* paraiso-dark.min.css */,
+				D6B2A438239A47F5771248A1CBCFBFFB /* paraiso-light.min.css */,
+				A1E50B248213A76BBC6F56672B5B4534 /* pojoaque.min.css */,
+				3ED3C977E5C6F9B5C3D8F5C4861FC112 /* purebasic.min.css */,
+				12539862AC7D1FBD94AA46896C059F85 /* qtcreator_dark.min.css */,
+				15692E330B80CBEBBDE81E95C1D85BD9 /* qtcreator_light.min.css */,
+				D879CC016211515242808B4CDE665A98 /* railscasts.min.css */,
+				AF02DC6D3F5E1534BD6EB899DE99C564 /* rainbow.min.css */,
+				222503681141E5B14190308E8CB2D00B /* routeros.min.css */,
+				075C8B74CF31DC142B32E8F18602BCD7 /* school-book.min.css */,
+				EDDED6F406154D0B0D444831C516FCDB /* solarized-dark.min.css */,
+				0B9E5E26984DC6D5212B671D7E9C2DCF /* solarized-light.min.css */,
+				84567FF8420A431D016BA4F89F6A7D38 /* sunburst.min.css */,
+				8B910893188628DBD698EAD05EF8E248 /* tomorrow-night-blue.min.css */,
+				38EA05B537DE139CFE4C624BEFF310CA /* tomorrow-night-bright.min.css */,
+				58E7E776ABE809181428A2D4BCC162D1 /* tomorrow-night-eighties.min.css */,
+				458CC888919BADA90EB86659490487CE /* tomorrow-night.min.css */,
+				6543E46F81E56207C25BD88A9DE52648 /* tomorrow.min.css */,
+				5A0D9812282119696DF5CAEFF9FB4D01 /* vs.min.css */,
+				38147D52014AF515EC1A57D54A4EBD69 /* vs2015.min.css */,
+				93D70615204C6AF96E5EB988D1781449 /* xcode.min.css */,
+				0F69998DC990A26222D98956CAF8F53D /* xt256.min.css */,
+				70DFFB3AA703D13F910B91DDF66E0181 /* zenburn.min.css */,
+			);
+			name = styles;
+			path = CNHighlightr/sources/styles;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F033E84AB7E0C25179B67CF3ACFD68F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8327CFD8783C073AFF8B7110D0EE97E7 /* CNHighlightr.framework */,
+				6A5065BBC14A84E4BB7FF21EE5A15947 /* Pods_CNHighlightr_Example.framework */,
+				49D993AEC5D32CA254C17BDB4CC8765B /* Pods_CNHighlightr_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61E9E513C6362E16C18F26A9A1C73C5F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96B418BCF0B5CBFB47A34FC714C3535D /* CNHighlightr */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7920EF8768FEA1AE80DF5E970F5A6E5B /* Highlighter */ = {
+			isa = PBXGroup;
+			children = (
+				CE00E93A9259604D5EB866CDFAC2DD40 /* highlight.min.js */,
+				F41C1E7B0CB9B48049E7BF74CCB49132 /* LICENSE */,
+			);
+			name = Highlighter;
+			path = CNHighlightr/sources/Highlighter;
+			sourceTree = "<group>";
+		};
+		7F94CDC6729693404A59821C808617B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9988368C94D571ABCEC7A24B8239D05 /* CNHighlightr.modulemap */,
+				8ED60D01BDF50C628293CAFD2A19D9BE /* CNHighlightr-dummy.m */,
+				76313FE94D6ECB105AC1F421FB92A249 /* CNHighlightr-Info.plist */,
+				34C829D704ADB4EE35947E8A7D70D622 /* CNHighlightr-prefix.pch */,
+				E2994073DD8B6C99C6AF2059C76C9E19 /* CNHighlightr-umbrella.h */,
+				A6F43CA820E1BCC7C91F57D7C2FB26F6 /* CNHighlightr.debug.xcconfig */,
+				FC9212D35D7F39D08ACE2B895B6EBB42 /* CNHighlightr.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CNHighlightr";
+			sourceTree = "<group>";
+		};
+		86C2C6AA6E48CDBC53E493CAA04FE6DF /* Pods-CNHighlightr_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7BC07628ACB6152490E7BA9EA050F656 /* Pods-CNHighlightr_Tests.modulemap */,
+				FC30233CFCC316F1C448DF17DB09C914 /* Pods-CNHighlightr_Tests-acknowledgements.markdown */,
+				6DDC976D8A331BC5844BE15BEBF30486 /* Pods-CNHighlightr_Tests-acknowledgements.plist */,
+				9FB1B1CC8C79F97E545B85205B32D143 /* Pods-CNHighlightr_Tests-dummy.m */,
+				3FB674C7F152D5104DBD108190CA86F3 /* Pods-CNHighlightr_Tests-Info.plist */,
+				E682E73D1AF4F07F6242B07350804154 /* Pods-CNHighlightr_Tests-umbrella.h */,
+				014361AEE844210DFDC94D004ABB288B /* Pods-CNHighlightr_Tests.debug.xcconfig */,
+				2588E60184BE6AC2ED2426E6E19F278E /* Pods-CNHighlightr_Tests.release.xcconfig */,
+			);
+			name = "Pods-CNHighlightr_Tests";
+			path = "Target Support Files/Pods-CNHighlightr_Tests";
+			sourceTree = "<group>";
+		};
+		96B418BCF0B5CBFB47A34FC714C3535D /* CNHighlightr */ = {
+			isa = PBXGroup;
+			children = (
+				BE6074BD6E578390C3580A589C174996 /* CNCodeNumberLayoutManager.h */,
+				D41F2F03C132630B4B3F41B44798A51F /* CNCodeNumberLayoutManager.m */,
+				D6ED9D7F887A90EA2A30AF600372DE13 /* CNCodeTextView.h */,
+				59622FBC96FEC316E741D630E9DC297B /* CNCodeTextView.m */,
+				0560ED9C7AA622FAD3EADCEDA8B214B3 /* CodeAttributedString.h */,
+				46F15AC920678A6B700B8B1675A3439E /* CodeAttributedString.m */,
+				D869F028925FD637AF2F4C25D474FF36 /* Highlightr.h */,
+				487DF3C88DF3433C10F0545CF8293263 /* Highlightr.m */,
+				D4A0058DC1A632489F3FE3B01C856389 /* HTMLUtils.h */,
+				FD51710A203C20C09B7401014E3AE13B /* HTMLUtils.m */,
+				58AA41CA1FEE642C660FAAE6904CD015 /* Theme.h */,
+				CAAB40737A796F5CA3BE14AED73A83D2 /* Theme.m */,
+				7920EF8768FEA1AE80DF5E970F5A6E5B /* Highlighter */,
+				06BD219790B1071090F2CAD01C25CC50 /* Pod */,
+				31C2DD6D7E168A7BDF74E55205250060 /* styles */,
+				7F94CDC6729693404A59821C808617B2 /* Support Files */,
+			);
+			name = CNHighlightr;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				61E9E513C6362E16C18F26A9A1C73C5F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5F033E84AB7E0C25179B67CF3ACFD68F /* Products */,
+				276CB14589AF580FB9A739E8E5F547AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C2FF5201D0650E22BE227BB871002F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B7C94EC31E0351A6AE2C92EBE938E7 /* Pods-CNHighlightr_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330F695E4C5DD14F2F9B59E5E06C144B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A11B13B764A309F4BECF32B6DCCC3A /* CNCodeNumberLayoutManager.h in Headers */,
+				0E15749411C4BEEF9573A7C7A9F146DD /* CNCodeTextView.h in Headers */,
+				B22AEF4AF5ABF70ED7CE6A13E968E743 /* CNHighlightr-umbrella.h in Headers */,
+				BF4159347CCCC833A448DAEB8C89F7C3 /* CodeAttributedString.h in Headers */,
+				3457C3E7C376F5506C8AE6B91388C5D8 /* Highlightr.h in Headers */,
+				1105BAD9ED5778B4A06CD67815625B11 /* HTMLUtils.h in Headers */,
+				02997F890E95FE188610395C7A74EAA0 /* Theme.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B70FC1DFA25769599075C30BEB15D8ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BDEA8FFAFAAD51C3147F348F1BFEA3 /* Pods-CNHighlightr_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6DD61698AEF7D14048E9B1E33155CDF7 /* Pods-CNHighlightr_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE5DF6A9498BA8CBD61039AF030BFD8 /* Build configuration list for PBXNativeTarget "Pods-CNHighlightr_Tests" */;
+			buildPhases = (
+				2C2FF5201D0650E22BE227BB871002F1 /* Headers */,
+				8049C858EB477927D726325F418F6B2F /* Sources */,
+				5A658B1A0CCA01371183115BFC519343 /* Frameworks */,
+				05929EF1EF2E14684AFD489421792C87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00259D1EA5B6208B2C59CEF5063E65E /* PBXTargetDependency */,
+			);
+			name = "Pods-CNHighlightr_Tests";
+			productName = "Pods-CNHighlightr_Tests";
+			productReference = 49D993AEC5D32CA254C17BDB4CC8765B /* Pods_CNHighlightr_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B313AD1223B60B75F3ECCEFEE2EB84DD /* Pods-CNHighlightr_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C77222B36456085D14789B0BDCD6A5 /* Build configuration list for PBXNativeTarget "Pods-CNHighlightr_Example" */;
+			buildPhases = (
+				B70FC1DFA25769599075C30BEB15D8ED /* Headers */,
+				F8439FAA787F2CA224F07669C379A0B4 /* Sources */,
+				A69185A49044A75CD76F4F126E877475 /* Frameworks */,
+				56593FC54511589F16C74AFAF2EA8C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E159E1FD526D5CF1ABE789191B02DDC /* PBXTargetDependency */,
+			);
+			name = "Pods-CNHighlightr_Example";
+			productName = "Pods-CNHighlightr_Example";
+			productReference = 6A5065BBC14A84E4BB7FF21EE5A15947 /* Pods_CNHighlightr_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6BCD74F5F962035E6732ED9CE4CFBC6 /* CNHighlightr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20057C8710537120E5CE11A2ABCE625F /* Build configuration list for PBXNativeTarget "CNHighlightr" */;
+			buildPhases = (
+				330F695E4C5DD14F2F9B59E5E06C144B /* Headers */,
+				43D1CB3CB9ADCF8A45B5D9735193978F /* Sources */,
+				6E2384EF756CDD8A4C7CEDF1F3ACD3DF /* Frameworks */,
+				12F7A3C4AB78D4AD9CD1D64A3BD15489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CNHighlightr;
+			productName = CNHighlightr;
+			productReference = 8327CFD8783C073AFF8B7110D0EE97E7 /* CNHighlightr.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5F033E84AB7E0C25179B67CF3ACFD68F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6BCD74F5F962035E6732ED9CE4CFBC6 /* CNHighlightr */,
+				B313AD1223B60B75F3ECCEFEE2EB84DD /* Pods-CNHighlightr_Example */,
+				6DD61698AEF7D14048E9B1E33155CDF7 /* Pods-CNHighlightr_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05929EF1EF2E14684AFD489421792C87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12F7A3C4AB78D4AD9CD1D64A3BD15489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E374D940F232B7AF57F9477D4678E0ED /* agate.min.css in Resources */,
+				D211E981FFA8CD833B2E6AD034A6DDAD /* androidstudio.min.css in Resources */,
+				867E52CCF9024F3E2CE83F88A10EE3A7 /* arduino-light.min.css in Resources */,
+				A2D218476185D3D55F3DADB170553BF1 /* arta.min.css in Resources */,
+				6DF76703FF2F7D5B8C5B39398BE71992 /* ascetic.min.css in Resources */,
+				4D3044035058FB04A594485A79453574 /* atelier-cave-dark.min.css in Resources */,
+				DE75945BE752C2C3138A96BB535F48C5 /* atelier-cave-light.min.css in Resources */,
+				6DAB6378CCDF06088057C456A416F750 /* atelier-dune-dark.min.css in Resources */,
+				E6CDA8ED233A92C5DC3A0E9A85D76C56 /* atelier-dune-light.min.css in Resources */,
+				B525489BED608ECC8CD5001CA3334105 /* atelier-estuary-dark.min.css in Resources */,
+				C3F4619FCCAC0E0B265E2AC5D1D1AB4E /* atelier-estuary-light.min.css in Resources */,
+				C357606B95F56DB06DDFE89403296236 /* atelier-forest-dark.min.css in Resources */,
+				3DFDE31E111170694124F80ACBAD18FE /* atelier-forest-light.min.css in Resources */,
+				9A53BFECB27430D5A2667E7EA0238E5B /* atelier-heath-dark.min.css in Resources */,
+				32C9585679569B940FAC9506F5F66E6D /* atelier-heath-light.min.css in Resources */,
+				3C16773E2F49E25A9CBC3E880D3155F7 /* atelier-lakeside-dark.min.css in Resources */,
+				E3AD2EC01A5DE354B019011B26BBF797 /* atelier-lakeside-light.min.css in Resources */,
+				E2CA6D860AA7D922A85E49A343E5F11E /* atelier-plateau-dark.min.css in Resources */,
+				BF64A2B8BFB2A3E98E85062C62983A56 /* atelier-plateau-light.min.css in Resources */,
+				9804911F4147BBAB994353CA67568226 /* atelier-savanna-dark.min.css in Resources */,
+				2BF8BA80ECED86E0B6A48E1F39D036D2 /* atelier-savanna-light.min.css in Resources */,
+				2D777BC230CF4576B36480FF016FA38B /* atelier-seaside-dark.min.css in Resources */,
+				DC4C2E1AFB531E45766FC0A554AD0E39 /* atelier-seaside-light.min.css in Resources */,
+				842CE44D4C04203912689A4807CE9A64 /* atelier-sulphurpool-dark.min.css in Resources */,
+				BA6A250C5AAE6C6C19DBE51B1E699E73 /* atelier-sulphurpool-light.min.css in Resources */,
+				A9A40B53EE8BE7138DC6BFC7F75A8425 /* atom-one-dark.min.css in Resources */,
+				B025FEC6CB0F374A7F06918415260620 /* atom-one-light.min.css in Resources */,
+				883933AED34022A61A529BD6B5795B01 /* brown-paper.min.css in Resources */,
+				ABF12B4046725B6130B823E0354190EC /* brown-papersq.png in Resources */,
+				E39DCE6362364C71510B0F7DF16DB55E /* codepen-embed.min.css in Resources */,
+				DE7B098F7EFFA9DE0C981B2B4F676BA3 /* color-brewer.min.css in Resources */,
+				6303EF74965B0EE5C8054DD61400EAF0 /* darcula.min.css in Resources */,
+				5098D2089C019F2A45724CA3740C4012 /* dark.min.css in Resources */,
+				72D5D10C152A741E42FF581A41DDD7AC /* darkula.min.css in Resources */,
+				629A7A2DBDF97663C76EB2A4D1490CE6 /* default.min.css in Resources */,
+				39CE99278246679413FB96560D7E4647 /* docco.min.css in Resources */,
+				5B184D23BE221B99C9CD00703C949563 /* dracula.min.css in Resources */,
+				314E6DEBECC12E857E66D4ADB027530B /* far.min.css in Resources */,
+				FC2B5F666AE7C89875B8B7AD371D2A26 /* foundation.min.css in Resources */,
+				D0D2C4C095B998517A600E02EE318B70 /* github-gist.min.css in Resources */,
+				A8D3D42D003813BF74E84559537B777F /* github.min.css in Resources */,
+				B3876DAABA31B0A4D08DF148FFC621E3 /* googlecode.min.css in Resources */,
+				A7BDF4A4199911025BDFDA458E921DC6 /* grayscale.min.css in Resources */,
+				9ECC0C9CBA611A36B69BAD7E234D9657 /* gruvbox-dark.min.css in Resources */,
+				234EB3950C32113AA1456D1AD66FF6F5 /* gruvbox-light.min.css in Resources */,
+				71CF51ADF49B39BC723B67D34C355792 /* highlight.min.js in Resources */,
+				13E0C13298B9B371FC34C4BA4F5AEC80 /* hopscotch.min.css in Resources */,
+				14B67D3DFE18CBA3DF1E35B55045483A /* hybrid.min.css in Resources */,
+				842DF80FFABF66F008FDBA5347FC5FB5 /* idea.min.css in Resources */,
+				4FFDE2A64F276C4E62495F2004312E7C /* ir-black.min.css in Resources */,
+				47BD36FB0A2A9B06D6666633934D89E0 /* kimbie.dark.min.css in Resources */,
+				B6CEEF3EC4AFCB28CE7E5D1DD4695588 /* kimbie.light.min.css in Resources */,
+				6BFD78669F6A9B491D58917085396817 /* LICENSE in Resources */,
+				A9A2DB955EBBF694E51CC326063B8210 /* magula.min.css in Resources */,
+				7493060DCD413604274187B5C9C8D8C9 /* mono-blue.min.css in Resources */,
+				5FBAF8E6A5B1B01F24484B4857821457 /* monokai-sublime.min.css in Resources */,
+				BDBA7EDE6DDD343526EA95EE35E543C9 /* monokai.min.css in Resources */,
+				BA952E32433E968871FA4AC68B79CB7E /* obsidian.min.css in Resources */,
+				C77DE1E740CD31B687159C8E5CD0C1FD /* ocean.min.css in Resources */,
+				A2130B56752EFD6541639F76D9DC3F7E /* paraiso-dark.min.css in Resources */,
+				542CA3C518A5F66236F8840FB7C68C45 /* paraiso-light.min.css in Resources */,
+				0F0E357E37E1C8373567BDBA95A6C791 /* pojoaque.min.css in Resources */,
+				4704D6DB8D2E884A539ECFB4C9FE6D51 /* purebasic.min.css in Resources */,
+				0A8F772C05541E3A65BE76488F80A363 /* qtcreator_dark.min.css in Resources */,
+				1A3569EF706AB9BF2786FAED71806A7A /* qtcreator_light.min.css in Resources */,
+				5DD83B2E2C56FEAB64D3CC0804E08AAA /* railscasts.min.css in Resources */,
+				FF6EF299E9C24363CAC4BA48A6D87BA5 /* rainbow.min.css in Resources */,
+				AC9B3A736274FE65B752904257BB3493 /* routeros.min.css in Resources */,
+				DB358FD1389FA738FF292506EBE22D9A /* school-book.min.css in Resources */,
+				A33F81FC9A5D66E78934321CDA933ED3 /* solarized-dark.min.css in Resources */,
+				87412BB812A11CD3F43B8E5B3A958EB1 /* solarized-light.min.css in Resources */,
+				726965191ED0A3DC962B2A9005A2F05E /* sunburst.min.css in Resources */,
+				D27F271A630063C20356261F530427EE /* tomorrow-night-blue.min.css in Resources */,
+				B9A66C7CADE279D30ED4A9213949F79D /* tomorrow-night-bright.min.css in Resources */,
+				E79D286D7216D98D14F178D784734E5A /* tomorrow-night-eighties.min.css in Resources */,
+				B494E18569A32828CA2D1521364D9866 /* tomorrow-night.min.css in Resources */,
+				9FFFFC9C3F0536FF4BA3065071A501EA /* tomorrow.min.css in Resources */,
+				F340B5F28B1CCAEE5EC7192CE1F7127A /* vs.min.css in Resources */,
+				09BD7B94DFBECC0FC171A29B8CF191CD /* vs2015.min.css in Resources */,
+				E26C3BB8D416E342041EE5F5B80B06B0 /* xcode.min.css in Resources */,
+				62D031BFDD48E61A5013149FDF3E75B9 /* xt256.min.css in Resources */,
+				10D9DABE0D24BEC18FA556B5FF40AB3F /* zenburn.min.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56593FC54511589F16C74AFAF2EA8C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43D1CB3CB9ADCF8A45B5D9735193978F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A0318D57F8FC4D9350F47C0D2FDAE2 /* CNCodeNumberLayoutManager.m in Sources */,
+				9F549540ECE6005AE60EC681D5670CC1 /* CNCodeTextView.m in Sources */,
+				A9D3723534D1F0EDF3AD040E8C8DABAD /* CNHighlightr-dummy.m in Sources */,
+				A22EA6C59EE45C276AFFCC19C8F9372C /* CodeAttributedString.m in Sources */,
+				0BA152DE2554D82671DCD3884B690032 /* Highlightr.m in Sources */,
+				A424171E9124DED7F79F0B1473531095 /* HTMLUtils.m in Sources */,
+				04A6802BB3A83438FFD4DC0C73F18707 /* Theme.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8049C858EB477927D726325F418F6B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BBE6A3E6C38B6C15546AA0A94DEAD9 /* Pods-CNHighlightr_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8439FAA787F2CA224F07669C379A0B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E458DD3A7A624E47345DEBD424A345D /* Pods-CNHighlightr_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E159E1FD526D5CF1ABE789191B02DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CNHighlightr;
+			target = F6BCD74F5F962035E6732ED9CE4CFBC6 /* CNHighlightr */;
+			targetProxy = 2072932A370D693B42A1406DD2FB44FE /* PBXContainerItemProxy */;
+		};
+		B00259D1EA5B6208B2C59CEF5063E65E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CNHighlightr_Example";
+			target = B313AD1223B60B75F3ECCEFEE2EB84DD /* Pods-CNHighlightr_Example */;
+			targetProxy = 54CD49250041E75DB73F786E6FC3F0CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EC4F4FFD7EE2DC5F3DBB2D30F6417B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8815E03C44678982C9DB73ACF8931E /* Pods-CNHighlightr_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CNHighlightr_Example/Pods-CNHighlightr_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CNHighlightr_Example/Pods-CNHighlightr_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23BC47545040DC15BEB2DFAB6705A9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 014361AEE844210DFDC94D004ABB288B /* Pods-CNHighlightr_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CNHighlightr_Tests/Pods-CNHighlightr_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CNHighlightr_Tests/Pods-CNHighlightr_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7D6AC7A1B1790FC8879B005BA6EBD555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6F43CA820E1BCC7C91F57D7C2FB26F6 /* CNHighlightr.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CNHighlightr/CNHighlightr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CNHighlightr/CNHighlightr-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CNHighlightr/CNHighlightr.modulemap";
+				PRODUCT_MODULE_NAME = CNHighlightr;
+				PRODUCT_NAME = CNHighlightr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6DAC6FF0E00C61F5AA07208C05DE635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2588E60184BE6AC2ED2426E6E19F278E /* Pods-CNHighlightr_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CNHighlightr_Tests/Pods-CNHighlightr_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CNHighlightr_Tests/Pods-CNHighlightr_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E5BC32CAC9FEC7F836EC6B2B486488F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC9212D35D7F39D08ACE2B895B6EBB42 /* CNHighlightr.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CNHighlightr/CNHighlightr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CNHighlightr/CNHighlightr-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CNHighlightr/CNHighlightr.modulemap";
+				PRODUCT_MODULE_NAME = CNHighlightr;
+				PRODUCT_NAME = CNHighlightr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E94B68C7983AC09407F18830C351A240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D476511130CE7EFDCD771EA6CB65C7A /* Pods-CNHighlightr_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CNHighlightr_Example/Pods-CNHighlightr_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CNHighlightr_Example/Pods-CNHighlightr_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20057C8710537120E5CE11A2ABCE625F /* Build configuration list for PBXNativeTarget "CNHighlightr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6AC7A1B1790FC8879B005BA6EBD555 /* Debug */,
+				E5BC32CAC9FEC7F836EC6B2B486488F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C77222B36456085D14789B0BDCD6A5 /* Build configuration list for PBXNativeTarget "Pods-CNHighlightr_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94B68C7983AC09407F18830C351A240 /* Debug */,
+				0EC4F4FFD7EE2DC5F3DBB2D30F6417B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE5DF6A9498BA8CBD61039AF030BFD8 /* Build configuration list for PBXNativeTarget "Pods-CNHighlightr_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BC47545040DC15BEB2DFAB6705A9F6 /* Debug */,
+				B6DAC6FF0E00C61F5AA07208C05DE635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
